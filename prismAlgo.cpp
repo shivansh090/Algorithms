@@ -24,3 +24,7 @@ int spanningTree(int V, vector<vector<int>> adj[]) {
         }
         return ans;
 }
+
+
+// Time Complexity: O(E log V) (using a binary heap)
+// Space Complexity: O(V + E)
